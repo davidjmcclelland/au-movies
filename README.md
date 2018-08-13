@@ -9,5 +9,5 @@ the add this under scripts in package.json:
 
 `   "start": "./node_modules/.bin/http-server -a localhost -p 8000 -c-1",`
 
-then npm start to serve pages. Oh wait, there aren't any yet...
+then npm start to serve the index page...
 
