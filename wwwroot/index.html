@@ -4,11 +4,15 @@
     <meta charset="UTF-8">
     <title>JSPM</title>
 </head>
-<body>
+<body aurelia-app>
+
     <script src="jspm_packages/system.js"></script>
     <script src="config.js"></script>
 <script>
-    System.import("app");
+    //System.import("app");
+    // I had to add the full path for some reason, but jspm is obsolete
+    // we should use webpack instead and aurelia CLI
+    System.import("jspm_packages/npm/aurelia-bootstrapper@2.3.0.js");
 </script>
 </body>
 </html>
