@@ -7,3 +7,5 @@
 *.iml
 out
 gen
+/au-movies.ipr
+/au-movies.iws

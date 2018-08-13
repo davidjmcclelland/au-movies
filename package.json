@@ -1,0 +1,40 @@
+{
+  "name": "au-movies",
+  "version": "1.0.0",
+  "description": "[PluralSight Course](https://app.pluralsight.com/library/courses/building-applications-aurelia/table-of-contents)",
+  "main": "index.js",
+  "dependencies": {
+    "http-server": "0.11.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "./node_modules/.bin/http-server -a localhost/ -p 8000 -c-1",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidjmcclelland/au-movies.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidjmcclelland/au-movies/issues"
+  },
+  "homepage": "https://github.com/davidjmcclelland/au-movies#readme",
+  "jspm": {
+    "directories": {
+      "baseURL": "wwwroot"
+    },
+    "dependencies": {
+      "aurelia-bootstrapper": "npm:aurelia-bootstrapper@^2.3.0",
+      "aurelia-framework": "npm:aurelia-framework@^1.3.0",
+      "aurelia-pal-browser": "npm:aurelia-pal-browser@^1.8.0"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "core-js": "npm:core-js@^1.1.4"
+    }
+  }
+}
