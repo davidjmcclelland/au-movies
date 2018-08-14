@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "title" : "Star Wars",
+    "releaseYear" : 1977
+  },
+  {
+    "id": 2,
+    "title" : "Star Trek",
+    "releaseYear" : 1981
+  },
+  {
+    "id": 21,
+    "title" : "Space Balls",
+    "releaseYear" : 1987
+  }
+]

@@ -1,8 +1,14 @@
 <template>
-<div>${message}</div>
-    <!-- how can my view-model know when to change the message?
-    click.trigger attribute is like a binding expression that tells aurelia
-     wen the user clicks on this button to invoke this method on the view-model.
-    -->
-    <button click.trigger="changeMessage()">Change Message</button>
+<div> Dude! You have ${movies.length} movies!</div>
+
+    <table>
+        <tr>
+            <th>Title</th>
+            <th>Year</th>
+        </tr>
+        <tr repeat.for="movie of movies">
+            <td>${movie.title}</td>
+            <td>${movie.releaseYear}</td>
+        </tr>
+    </table>
 </template>
