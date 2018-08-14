@@ -19,3 +19,5 @@ jspm install aurelia-framework
 jspm install aurelia-bootstrapper
 
 I replaced the module methods with aurelia ones in the same files - the previous hello world jspm-only module implementation detailsare commented out so you can compare them.
+
+In 3-2-aurelia I add a button to change the message via bindings.

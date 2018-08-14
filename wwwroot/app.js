@@ -7,6 +7,14 @@ sayHello();*/
 
 export class App {
    constructor() {
+       this.message = '';
+   }
+
+   activate() {
        this.message = 'Hello World from Aurelia!';
+   }
+
+    changeMessage() {
+       this.message = 'Goodbye ES5!';
    }
 }
