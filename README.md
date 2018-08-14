@@ -20,3 +20,4 @@ jspm install aurelia-bootstrapper
 jspm install aurelia-http-client
 
 * load json and transform it into a table
+* load json via a class that is injected into app instead of implemented within it.
