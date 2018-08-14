@@ -6,7 +6,7 @@ System.config({
     "optional": [
       "runtime",
       "optimisation.modules.system",
-        "es7.decorators"
+      "es7.decorators"
     ]
   },
   paths: {
@@ -22,6 +22,7 @@ System.config({
     "babel": "npm:babel-core@5.8.38",
     "babel-runtime": "npm:babel-runtime@5.8.38",
     "core-js": "npm:core-js@1.2.7",
+    "twbs/bootstrap": "github:twbs/bootstrap@4.1.3",
     "github:jspm/nodelibs-assert@0.1.0": {
       "assert": "npm:assert@1.4.1"
     },
@@ -39,6 +40,10 @@ System.config({
     },
     "github:jspm/nodelibs-vm@0.1.0": {
       "vm-browserify": "npm:vm-browserify@0.0.4"
+    },
+    "github:twbs/bootstrap@4.1.3": {
+      "jquery": "npm:jquery@3.3.1",
+      "tether": "github:HubSpot/tether@1.4.4"
     },
     "npm:assert@1.4.1": {
       "assert": "github:jspm/nodelibs-assert@0.1.0",
