@@ -1,9 +1,12 @@
+import {inject} from 'aurelia-framework';
 import {HttpClient} from 'aurelia-http-client';
 
+//es7 decorator
+@inject(HttpClient)
 export class App {
-   constructor() {
+
+   constructor(httpClient) {
        this.message = '';
-       // not ideal, but expedient - better to inject
        this.http = new HttpClient();
    }
 
@@ -16,7 +19,4 @@ export class App {
                        })
    }
 
-    changeMessage() {
-       this.message = 'Goodbye ES5!';
-   }
 }
