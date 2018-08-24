@@ -10,4 +10,4 @@ Aurelia allows you to define both
 * direct DOM manipulation
 * inject elements
 
-![alt text](raw.githubusercontent.com/davidjmcclelland/au-movies/10-custom-elements/movies/resources/binding.png)
+![alt text](raw.githubusercontent.com/davidjmcclelland/au-movies/10-custom-elements/resources/binding.png)
