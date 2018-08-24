@@ -19,9 +19,11 @@ System.config({
     "aurelia-framework": "npm:aurelia-framework@1.3.0",
     "aurelia-http-client": "npm:aurelia-http-client@1.3.0",
     "aurelia-pal-browser": "npm:aurelia-pal-browser@1.8.0",
+    "aurelia-validation": "npm:aurelia-validation@1.2.2",
     "babel": "npm:babel-core@5.8.38",
     "babel-runtime": "npm:babel-runtime@5.8.38",
     "core-js": "npm:core-js@1.2.7",
+    "font-awesome": "npm:font-awesome@4.7.0",
     "twbs/bootstrap": "github:twbs/bootstrap@4.1.3",
     "github:jspm/nodelibs-assert@0.1.0": {
       "assert": "npm:assert@1.4.1"
@@ -170,6 +172,14 @@ System.config({
       "aurelia-path": "npm:aurelia-path@1.1.1",
       "aurelia-task-queue": "npm:aurelia-task-queue@1.3.1"
     },
+    "npm:aurelia-validation@1.2.2": {
+      "aurelia-binding": "npm:aurelia-binding@2.1.4",
+      "aurelia-dependency-injection": "npm:aurelia-dependency-injection@1.4.1",
+      "aurelia-logging": "npm:aurelia-logging@1.5.0",
+      "aurelia-pal": "npm:aurelia-pal@1.8.0",
+      "aurelia-task-queue": "npm:aurelia-task-queue@1.3.1",
+      "aurelia-templating": "npm:aurelia-templating@1.8.2"
+    },
     "npm:babel-runtime@5.8.38": {
       "process": "github:jspm/nodelibs-process@0.1.2"
     },
@@ -182,6 +192,9 @@ System.config({
       "path": "github:jspm/nodelibs-path@0.1.0",
       "process": "github:jspm/nodelibs-process@0.1.2",
       "systemjs-json": "github:systemjs/plugin-json@0.1.2"
+    },
+    "npm:font-awesome@4.7.0": {
+      "css": "github:systemjs/plugin-css@0.1.37"
     },
     "npm:inherits@2.0.1": {
       "util": "github:jspm/nodelibs-util@0.1.0"

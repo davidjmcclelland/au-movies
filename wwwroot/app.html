@@ -7,22 +7,18 @@
                     Movies
                 </a>
             </div>
+            <ul class='nav navbar-nav'>
+                <li repeat.for="row of router.navigation"
+                    class="${row.isActive ? 'active' : ''}">
+                    <!-- equivalent method using bind syntax instead of string interpolation -->
+                    <!-- bind can be 2-way, string inerp is read out to view only -->
+                    <!-- class.bind="row.isActive ? 'active' : '' " -->
+                    <a href.bind="row.href">${row.title}</a>
+                </li>
+            </ul>
         </div>
     </nav>
 
-<div> Dude! You have ${movies.length} movies!</div>
-
-    <div class="container">
-        <table class="table">
-            <tr>
-                <th>Title</th>
-                <th>Year</th>
-            </tr>
-            <tr repeat.for="movie of movies">
-                <td>${movie.title}</td>
-                <td>${movie.releaseYear}</td>
-            </tr>
-        </table>
-    </div>
+    <router-view></router-view>
 
 </template>
