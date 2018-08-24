@@ -2,17 +2,12 @@
 
 [PluralSight Course](https://app.pluralsight.com/library/courses/building-applications-aurelia/table-of-contents)
 
-in terminal: 
-`npm init -y`
-
-the add this under scripts in package.json:
-
-`   "start": "./node_modules/.bin/http-server -a localhost -p 8000 -c-1",`
-
-then npm start to serve the index page...
-
-since this example has the content moved into wwwroot, use this to start server in terminal:
-
 `C:\workspaces\davidjmcclelland\au-movies\wwwroot>http-server -p 8001`
 
-The version of validation covered in the course module was completely replaced and is incompatible with the example used for the course. Skip it.
+Aurelia allows you to define both 
+* custom attributes and 
+* custom elements
+* direct DOM manipulation
+* inject elements
+
+![alt text](raw.githubusercontent.com/davidjmcclelland/au-movies/10-custom-elements/movies/resources/binding.png)

@@ -1,7 +1,7 @@
 ﻿export class App {
 
     configureRouter(config, router) {
-        this.router = router;
+        this.thisRouter = router;
 
         config.map([
             {route: ['', 'list'], moduleId: 'movies/list', title: 'List', nav: true, name:'home'},
