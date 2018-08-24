@@ -10,4 +10,4 @@ Aurelia allows you to define both
 * direct DOM manipulation
 * inject elements
 
-![alt text](/resources/binding.png)
+![alt text](/wwwroot/resources/binding.png)
