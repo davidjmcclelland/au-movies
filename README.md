@@ -4,10 +4,6 @@
 
 `C:\workspaces\davidjmcclelland\au-movies\wwwroot>http-server -p 8001`
 
-Aurelia allows you to define both 
-* custom attributes and 
-* custom elements
-* direct DOM manipulation
-* inject elements
+global resource inclusion to reduce require markup for reused elements
 
-![alt text](/wwwroot/resources/binding.png)
+
