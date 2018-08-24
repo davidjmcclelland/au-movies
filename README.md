@@ -15,10 +15,4 @@ since this example has the content moved into wwwroot, use this to start server 
 
 `C:\workspaces\davidjmcclelland\au-movies\wwwroot>http-server -p 8001`
 
-* jspm install aurelia-framework
-* jspm install aurelia-bootstrapper
-* jspm install aurelia-http-client
-
-
-* load json and transform it into a table
-* load json via a class that is injected into app instead of implemented within it.
+The version of validation covered in the course module was completely replaced and is incompatible with the example used for the course. Skip it.
