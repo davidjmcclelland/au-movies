@@ -1,0 +1,10 @@
+<template><ul class='nav navbar-nav'>
+    <li repeat.for="row of navbar_router.navigation"
+        class="${row.isActive ? 'active' : ''}">
+        <!-- equivalent method using bind syntax instead of string interpolation -->
+        <!-- bind can be 2-way, string inetrp is read out to view only -->
+        <!-- class.bind="row.isActive ? 'active' : '' " -->
+        <a href.bind="row.href">${row.title}</a>
+    </li>
+</ul>
+</template>

@@ -1,4 +1,7 @@
 <template>
+
+    <require from="./nav-bar"></require>
+
     <nav class="navbar navbar-inverse">
         <div class="container-fluid">
             <div class="navbar-header">
@@ -6,15 +9,18 @@
                     Movies
                 </a>
             </div>
-            <ul class='nav navbar-nav'>
+
+            <nav-bar navbar_router.bind="nav_router_reference"></nav-bar>
+<!--            <ul class='nav navbar-nav'>
                 <li repeat.for="row of nav_router_reference.navigation"
                     class="${row.isActive ? 'active' : ''}">
-                    <!-- equivalent method using bind syntax instead of string interpolation -->
-                    <!-- bind can be 2-way, string inetrp is read out to view only -->
-                    <!-- class.bind="row.isActive ? 'active' : '' " -->
+                    &lt;!&ndash; equivalent method using bind syntax instead of string interpolation &ndash;&gt;
+                    &lt;!&ndash; bind can be 2-way, string inetrp is read out to view only &ndash;&gt;
+                    &lt;!&ndash; class.bind="row.isActive ? 'active' : '' " &ndash;&gt;
                     <a href.bind="row.href">${row.title}</a>
                 </li>
-            </ul>
+            </ul>-->
+
         </div>
     </nav>
 </template>

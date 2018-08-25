@@ -10,4 +10,6 @@ Aurelia allows you to define both
 * direct DOM manipulation
 * inject elements
 
-![alt text](/wwwroot/resources/binding.png)
+Router object is passed though nav-menu custom element to nav-bar custom element.
+
+![alt text](/wwwroot/resources/binding-passthrough.png)
